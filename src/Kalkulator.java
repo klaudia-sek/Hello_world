@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Kalkulator {
+    public static void main(String[] args) {
+        System.out.println("Podaj pierwszą cyfrę");
+        Scanner scanner=new Scanner(System.in);
+        int number1= scanner.nextInt();
+        System.out.println("Podaj drugą cyfrę");
+        int number2= scanner.nextInt();
+        System.out.println("Suma "+(number1%number2));
+    }
+}
